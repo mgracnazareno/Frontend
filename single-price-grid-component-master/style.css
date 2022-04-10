@@ -1,0 +1,77 @@
+:root {
+  --primary__cyan: hsl(179, 62%, 43%);
+  --primary__yellow-bright: hsl(71, 73%, 54%);
+  --neutral__gray-light: hsl(204, 43%, 93%);
+  --neutral__grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: Outfit, sans-serif ;
+}
+
+.wrapper {
+  text-align: start;
+  max-width: 311px;
+  margin: 0 auto;
+}
+h1 {
+  /* font-size: 2.5em; */
+  color: var(--primary__cyan);
+  font-weight: 400;
+}
+
+h1 + h2 {
+  color: var(--primary__yellow-bright);
+  /* font-size: 0.94em; */
+  /* font-weight: 700; */
+}
+
+p, ul{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.subscription {
+  display: flex;
+  flex: 200px;
+  justify-content: baseline;
+  align-items: flex-start;  
+}
+
+span {
+  font-weight: 400;
+  font-size: 2.25em;
+  font-family: "Outfit", sans-serif;
+}
+span + p{
+  padding: 24px;
+  font-size: 1em;
+  line-height: 0%;  
+}
+#subscription-access{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  border: 1px solid hsl(71, 73%, 54%);
+  padding: 2px;
+  margin: 2px;
+
+}
+.btn{
+  background: hsl(71, 73%, 54%);
+  width: 250px;
+  margin-inline-start: auto;
+  color: white;
+  padding: 12px;
+}
