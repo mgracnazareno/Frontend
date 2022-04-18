@@ -1,0 +1,43 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.container {
+  margin-top: 45px;
+}
+h2 {
+ font-family: 'Outfit', sans-serif; 
+ color: hsl(0, 0%, 95%);
+ 
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+@media (min-width: 327px) {
+  .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .sedan{
+    background-color: hsl(31, 77%, 52%);
+  }
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+  }
+}
